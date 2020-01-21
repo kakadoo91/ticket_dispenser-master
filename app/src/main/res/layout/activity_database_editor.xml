@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mramir.ticketDispenser.DatabaseEditor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/database_visa_tv"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Visa"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+
+                <EditText
+                    android:id="@+id/database_visa_ni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="tap to change"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/database_student_tv"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Student"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+
+                <EditText
+                    android:id="@+id/database_student_ni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="tap to change"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/database_proxy_tv"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Proxy"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+
+                <EditText
+                    android:id="@+id/database_proxy_ni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="tap to change"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/database_passport_tv"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Passport"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+
+                <EditText
+                    android:id="@+id/database_passport_ni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="tap to change"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="60sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/resetButt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="Reset"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/database_save_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Save"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    tools:layout_editor_absoluteX="223dp"
+                    tools:layout_editor_absoluteY="429dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
